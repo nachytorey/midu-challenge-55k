@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
+midu-challenge-55k
 
 ```bash
+npm i
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Prueba
+The objective of this technical test is to create a similar application to the one provided in this link: https://xxxxx. To achieve this, you must use the API provided by https://randomuser.me/.
+Here are the steps to follow:
+- [] Fetch 100 rows of data using the API.
+- [] Display the data in a table format, similar to the example.
+- [] Provide the option to color rows as shown in the example.
+- [] Allow the data to be sorted by country as demonstrated in the example.
+- [] Enable the ability to delete a row as shown in the example.
+- [] Implement a feature that allows the user to restore the initial state, meaning that all deleted rows will be recovered.
+- [] Handle any potential errors that may occur.
+- [] Implement a feature that allows the user to filter the data by country.
+- [] Avoid sorting users again the data when the user is changing filter by country. 
+- [] Sort by clicking on the column header.
+- [] Provide a README.md file with instructions on how to run the application.
