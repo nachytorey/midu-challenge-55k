@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Result, User } from "../types";
 
 const useFetchUser = () => {
   const [users, setUsers] = useState<User[]>([]);

@@ -61,7 +61,7 @@ interface Name {
   last: string;
 }
 
-interface Result<T> {
+export interface Result<T> {
   results: T[];
   info: Info;
 }
